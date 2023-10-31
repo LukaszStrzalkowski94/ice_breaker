@@ -10,7 +10,7 @@ information = """Jerzy VI (ang. George VI, ur. 14 grudnia 1895 w Sandringham Hou
 if __name__ == '__main__':
     print("hello Lang chain")
     
-    summary_template = """given the information {information} about a person from I want you to create:
+    summary_template = """given the Linkedin information {information} about a person from I want you to create:
                         1. a short summary 
                         2. two interesting facts about them 
                         """
